@@ -1,0 +1,7 @@
+[
+    {"kode": "001", "nama":"Barang 1", "harga": 1000},
+    {"kode": "002", "nama":"Barang 2", "harga": 2000},
+    {"kode": "003", "nama":"Barang 3", "harga": 3000},
+    {"kode": "004", "nama":"Barang 4", "harga": 4000},
+    {"kode": "005", "nama":"Barang 5", "harga": 5000}
+]

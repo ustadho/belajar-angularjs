@@ -14,10 +14,11 @@
     <body ng-app='MyModule'>
         <div >
             <div ng-controller='DefaultCtrl'>
-                <input auto-complete ui-items="names" ng-model="selected">
+                <input auto-complete ui-items="names" ng-model="selected" >
                 selected = {{selected}}
             </div>
         </div>
+        <script type="text/javascript" src="<%= request.getContextPath()%>/resources/js/jquery/jquery-1.9.1.js"></script>
         <script type="text/javascript" src="<%= request.getContextPath()%>/resources/js/angularjs/angular.min.js"></script>
         <script type="text/javascript" src="autocomplete.js"></script>
     </body>
